@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code2, GitFork, GitBranch, Star } from "lucide-react";
+import Image from "next/image";
+import { Code2, GitFork, Star } from "lucide-react";
+import designerLogo from "@/app/Designer.png";
 
 interface Repo {
   name: string;
@@ -25,7 +27,11 @@ export default function RepoCard({
         <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
           <div className="flex gap-4">
             <div className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-300/20 to-violet-400/20 text-cyan-200 ring-1 ring-white/10">
-              <GitBranch className="size-5" />
+              <Image
+                src={designerLogo}
+                alt="NavigateAI brandmark"
+                className="size-8 rounded-lg object-cover"
+              />
             </div>
             <div>
               <p className="mb-1 text-xs font-medium uppercase tracking-[0.18em] text-cyan-300/70">

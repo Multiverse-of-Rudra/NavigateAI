@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import favicon from "./favicon.png";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Navigate AI — Understand any repository",
   description: "AI-powered repository insights for open-source developers.",
+  icons: {
+    icon: favicon.src,
+    shortcut: favicon.src,
+    apple: favicon.src,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

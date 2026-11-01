@@ -2,6 +2,8 @@
 
 import { useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import Image from "next/image";
+import designerLogo from "@/app/Designer.png";
 import {
   AlertCircle,
   ArrowUpRight,
@@ -28,7 +30,6 @@ import {
   Sparkles,
   Star,
   Sun,
-  Terminal,
   Users,
   X,
 } from "lucide-react";
@@ -258,7 +259,13 @@ export default function Home() {
     <main className={isDark ? "app-shell" : "app-shell light-shell"}>
       <header className="topbar">
         <div className="brand">
-          <div className="brand-mark"><Terminal size={16} /></div>
+          <div className="brand-mark">
+            <Image
+              src={designerLogo}
+              alt="NavigateAI brandmark"
+              className="h-full w-full rounded-md object-cover"
+            />
+          </div>
           <span><strong>Navigate</strong> <em>AI</em></span>
         </div>
         <div className="topbar-actions">
@@ -278,7 +285,13 @@ export default function Home() {
             <button className="icon-button small" onClick={() => setSidebarOpen(false)} aria-label="Close explorer"><X size={14} /></button>
           </div>
           <button className="repo-switcher" onClick={() => data ? startNewAnalysis() : document.getElementById("repository-url")?.focus()}>
-            <span className="repo-avatar"><GitBranch size={14} /></span>
+            <span className="repo-avatar">
+              <Image
+                src={designerLogo}
+                alt=""
+                className="h-full w-full rounded-md object-cover"
+              />
+            </span>
             <span><b>{repo?.name || "Choose a repository"}</b><small>{repo ? "public / analyzed" : "paste a GitHub URL"}</small></span>
             <ChevronDown size={14} />
           </button>
