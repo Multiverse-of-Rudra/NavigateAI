@@ -140,19 +140,22 @@ Add your Vercel URL here.
 
 Paste a repository URL and start exploring instantly.
 
-_Add screenshot here._
+<img width="1920" height="1200" alt="Screenshot 2026-11-01 205611" src="https://github.com/user-attachments/assets/f827bc80-9443-4509-beb8-3a4520523a5d" />
+
 
 ### Repository Analysis Dashboard
 
 Understand repositories through structured AI insights.
 
-_Add screenshot here._
+<img width="1920" height="1200" alt="Screenshot 2026-11-01 205939" src="https://github.com/user-attachments/assets/5e33a314-6100-4b32-9241-b3f47b147c3c" />
+
 
 ### Learning Roadmap
 
 Follow a guided journey to become a contributor.
 
-_Add screenshot here._
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/22719413-b623-41f7-9b64-721b093d4f18" />
+
 
 ## 🔍 How It Works
 
@@ -198,7 +201,7 @@ Contribution Guidance
 
 ## 👨‍💻 Developer
 
-Rudra
+Rudra Mohan Mishra
 
 ## 📄 License
 
