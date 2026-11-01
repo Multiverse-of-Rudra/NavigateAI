@@ -132,7 +132,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 Add your Vercel URL here.
 
-**Example:** [https://navigate-ai.vercel.app](https://navigate-ai.vercel.app)
+**Example:** [https://navigate-ai.vercel.app]([https://navigate-ai.vercel.app](https://navigateai-psi.vercel.app))
 
 ## 📸 Screenshots
 
